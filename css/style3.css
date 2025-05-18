@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f0f2f5;
+}
+
+.container-main {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+
+.container-profile {
+    background: #2a2e35;
+    color: white;
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+.profile-image img {
+    width: 100%;
+    border-radius: 50%;
+    border: 4px solid #4a90e2;
+    margin-bottom: 1.5rem;
+}
+
+.profile-titles {
+    display: block;
+    color: #4a90e2;
+    font-weight: 600;
+    margin: 1.5rem 0 1rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.fas {
+    color: #4a90e2;
+}
+
+.contact-content div {
+    margin: 0.8rem 0;
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+    font-size: 0.9rem;
+}
+.contact-content div span{
+    background: rgba(74, 144, 226, 0.1);
+    padding: 0.5rem 1rem;
+    padding-right:1rem ;
+    border-radius: 8px;
+    font-size: 0.9rem;
+}
+.loisirs-content,
+.langues-content,
+.skills-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding-left: 20px; 
+}
+
+.loisirs::before,
+.langue::before,
+.skill::before {
+  content: "*"; 
+  color: #4a90e2; 
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em; 
+  position: absolute;
+  left: 10px; 
+}
+
+.loisirs,
+.langue,
+.skill {
+  position: relative; 
+  padding-left: 20px;
+}
+
+
+
+.container-parcours {
+    padding-right: 1rem;
+}
+
+.description-profile {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.profile-name {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2a2e35;
+    margin-bottom: 0.5rem;
+}
+
+.profile-title {
+    font-size: 1.2rem;
+    color: #4a90e2;
+}
+
+.section-title {
+    display: block;
+    font-size: 1.4rem;
+    color: #2a2e35;
+    padding-bottom: 0.5rem;
+    margin: 2rem 0 1.5rem;
+    border-bottom: 3px solid #4a90e2;
+}
+
+
+
+.academique-details, .item-details,.projet-technologies,.competencesTechnologies,.item-place{
+    display: flex;
+    justify-content: space-between;
+    color: #666;
+    font-size: 0.9rem;
+   margin-bottom: 10px;
+}
+
+.projet-technologies{
+  margin-left: 20px;
+  
+}
