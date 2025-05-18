@@ -1,13 +1,11 @@
 import { cv } from '../data/cv.js';
 
-const path = 'img/';
-
 function main() {
     const informations = [cv];
     let content = `
         <div class="container-profile">
             <section class="profile-image">
-                <img src="${path}${informations[0].profile.photo.split('/').pop()}" alt="${informations[0].profile.lastName}" class="picture" />
+                <img src="${informations[0].profile.photo}" alt="${informations[0].profile.lastName}" class="picture" />
             </section>
 
             <section class="profile-contacts">

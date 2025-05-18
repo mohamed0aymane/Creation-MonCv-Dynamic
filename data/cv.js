@@ -16,12 +16,12 @@ export const cv = {
                     Passionné par le développement logiciel, 
                     la conception d'architectures robustes et l'amélioration continue des processus.`,
                   
-        links: [
-            {
-                linkedin : "Mohamed Aymane Lamhamdi",
-                github : "mohamed0aymane"
-            }
-        ]
+                links: [
+                    {
+                        linkedin : "Mohamed Aymane Lamhamdi",
+                        github : "mohamed0aymane"
+                    }
+                ]
         
                 
             },
